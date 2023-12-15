@@ -16,6 +16,33 @@ html, body {
     background-color: #815e56;
 }
 
+.container .contact-container {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+
+}
+
+.container .sticky-side-container .contact-container p, #home .contact-container p {
+    color: #cdcdcd;
+    margin-bottom: 0;
+}
+
+
+.container .contact-container p a, span, #home .contact-container p a {
+    border: none;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    padding:  0;
+}
+
+.container .contact-container p a:hover {
+    background: none!important;
+    color: rgb(246, 245, 245);
+}
+
+
+
 .container .keep-position-left {
     width: 50%;
 
@@ -125,8 +152,8 @@ html, body {
 
 .container .orchid-img-container {
     position: absolute;
-    bottom: -254px;
-    left: -321px;
+    top: -254px;
+    left: -224px;
 }
 
 

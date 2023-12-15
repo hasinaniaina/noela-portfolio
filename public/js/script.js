@@ -43,10 +43,9 @@ function serviceSlider() {
 function animateContent() {
     tl.fromTo("img", {opacity: 0}, {opacity: 1, ease: "slow", duration: 2})
     .fromTo(".sticky-side-container", {x:"-100%",opacity: 0}, {x:"0%",opacity: 1,ease: "power4.out", ease: "sine.out", duration: 2}, "-=2")
-    .fromTo(".orchid-img-container ", {x:"100%",opacity: 0}, {x:"0%",opacity: 1,ease: "power4.out", ease: "sine.out", duration: 2})
+    .fromTo(".orchid-img-container ", {x:"-100%",opacity: 0}, {x:"0%",opacity: 1,ease: "power4.out", ease: "sine.out", duration: 2})
     .fromTo(".title", {x:"-100%", opacity:0}, {x:"0%", opacity: 1, duration: 1}, "-=1")
     .fromTo(".name", {x:"100%", opacity:0}, {x:"0%", opacity: 1, duration: 1},"-=1")
-    .fromTo(".button", {x:"100%", opacity:0}, {x:"0%", opacity: 1, duration: 1},"-=2")
     .fromTo(".navigation-container", {x:"100%", opacity:0}, {x:"0%", opacity: 1, duration: 1})
 }
 
